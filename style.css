@@ -145,7 +145,7 @@ body{
 }
 .left-box-1{
     width: 30%;
-    background-image: url(../image/third-row-1.jpg);
+    background-image: url(image/third-row-1.jpg);
     object-fit: cover;
     height: 600px;
     background-size: cover;
