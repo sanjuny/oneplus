@@ -438,7 +438,37 @@ body{
     padding: 0 10px 0 0;
     font-size: 13px;
 }
-
+.eleventh-banner{
+    height: 135px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 189px;
+}
+.final-con-1{
+    height: 100px;
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+}
+.final-con-2 ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    list-style-type: none;
+}
+.final-con-2{
+    width: 100%;
+}
+.final-con-2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: inherit;
+}
 
 
 
