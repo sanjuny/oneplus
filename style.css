@@ -1,0 +1,447 @@
+.header{
+    width: 100%;
+    background-color:#fff;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.box1{
+    width: 21%;
+    
+}
+
+.box1 img{
+    width: 160px;
+    height: fit-content;
+}
+
+
+.box2{
+    width: 76%;
+    display: flex;
+    justify-content: center;
+}
+.box2 ul li{
+    padding-right: 20px;
+    display: inline;
+    font-size: 16px;
+}
+
+.box3{
+    width: 21%;
+    text-align: end;
+}
+.box3 i{
+    font-size: 25px;
+    padding-right: 30px;
+    padding-top: 18px;
+}
+.image{
+    padding: 0;
+}
+.main-banner{
+    background-color: aqua;
+    height: 100vh;
+    background-image: url(image/phone-main.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.main-banner .content{
+    padding-left: 250px;
+}
+.logo-buy{
+    background-color:black;
+    color:#fff;
+    height: 36px;
+    width: 88px;
+    border-radius: 3px;
+}
+.logo-learn{
+    background-color: #fff;
+    height: 36px;
+    width: 89px;
+    margin: 0 0 0 7px;
+    border-radius: 3px;
+
+}
+.second-banner{
+    background-color:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 70px 100px;
+
+}
+.second-row-images img{   
+    background-color:#fff;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    
+
+    
+}
+.font1{
+    padding-left: 26px;
+    font-size: 14px;
+    margin: 6px 0;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+    
+}
+.font2{
+    padding-left: 61px;
+    font-size: 14px;
+    margin: 6px 0;
+
+}
+.font3{
+    padding-left: 38px;
+    font-size: 14px;
+    margin: 6px 0;
+}
+.font4{
+    padding-left: 58px;
+    font-size: 14px;
+    margin: 6px 0;
+
+}
+.font5{
+    padding-left: 58px;
+    font-size: 14px;
+    margin: 6px 0;
+}
+.font6{
+    padding-left: 45px;
+    font-size: 14px;
+    margin: 6px 0;
+}
+.font7{
+    padding-left: 58px;
+    font-size: 14px;
+    margin: 6px 0;
+}
+.font8{
+    padding-left: 63px;
+    font-size: 14px;
+    margin: 6px 0;
+}
+.font9{
+    padding-left: 30px;
+    font-size: 14px;
+    margin: 6px 0;
+
+}
+.third-banner{
+    background-color:#fff;
+    height: 600px;
+    padding: 0 0 0 100px;
+    display: flex;
+}
+.left-box-1{
+    width: 30%;
+    background-image: url(../image/third-row-1.jpg);
+    object-fit: cover;
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+
+
+
+}
+.right-box-2{
+    background-image: url(image/third-row-2.jpg);
+    object-fit: cover;
+    background-size: cover;
+    width: 862px;
+    height: 600px;
+    margin-left: 20px;
+    text-align: center;
+}
+.fourth-banner{
+    background-color:#fff;
+    height: 600px;
+    padding: 0 0 0 100px;
+    margin-top: 20px;
+    display: flex; 
+}
+.left-box-3{
+    background-color: blue;
+    background-image:url(image/fourth-row-1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 424px;
+    height: 600px;
+    text-align: center;
+}
+.left-box-3 .fourth1-content{
+    font-size:small;
+}
+.center-box-4{
+    background-color: brown;
+    background-image: url(image/fourth-row-2.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 424px;
+    height: 600px;
+    margin-left: 20px;
+    text-align: center;
+}
+.center-box-4 .fourth2-content{
+    font-size: small;
+}
+.right-box-5{
+    background-color: darkmagenta;
+    background-image: url(image/fourth-row-3.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 424px;
+    height: 600px;
+    margin-left: 20px;
+    text-align: center;
+}
+.right-box-5 .fourth3-content{
+    font-size: small;
+}
+.fifth-banner{
+    background-color:#fff;
+    height: 450px;
+    display: flex;
+    margin-top: 100px;
+}
+.left-div-1{
+    background-color: brown;
+    background-image: url(image/fifth-roww-1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 450px; 
+    width: 749.6px;
+    text-align: center;  
+}
+.left-div-1 .fifth1-content{
+    color: #fff;
+}
+.right-div-2{
+    background-color: blueviolet;
+    background-image: url(image/fifth-row-2.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 749.6px;
+    margin-left: 20px;
+    text-align: center;
+}
+.right-div-2 .fifth2-content{
+    color: #fff;
+}
+.sixth-banner{
+    background-color:#fff;
+    height: 450px;
+    margin-top: 20px;
+    display: flex;
+}
+.left-left-1{
+    background-color: blue;
+    background-image: url(image/sixth-row-1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 450px;
+    width: 749.6px;
+    background-position: center;
+    text-align: center;
+}
+.right-right-2{
+    background-color: chartreuse;
+    background-image: url(image/sixth-row-2.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 749.6px; 
+    height: 450px;
+    margin-left: 20px;
+    text-align: center;
+}
+.left-left-1 .sixth1-content{
+    color: #fff;
+}
+.right-right-2 .sixth2-content{
+    color: #fff;
+}
+.seventh-banner{
+    background-color:#fff;
+    height: 315px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 100px;
+}
+.leffft-1{
+    background-color:#fff;
+    width: 380px;
+    height: 315px;
+    
+    
+    
+}
+.centeeer-2{
+    background-color:#fff;
+    width: 380px;
+    height: 315px;
+    
+}
+.righhht-3{
+    background-color:#fff;
+    width: 380px;
+    height: 315px;
+}
+.news-logo{
+    width: 144.21px;
+    height: 65px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+.verge-logo{
+    width: 200px;
+    height: 33.92px;display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+.editor-logo{
+    width: 45.46px;
+    height: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.paragraph{
+    font-size: 16px;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+    font-feature-settings: "salt";
+    
+}
+.paragraph2{
+    font-size: 16px;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+    font-feature-settings: "salt";
+}
+.paragraph3{
+    font-size: 16px;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+    font-feature-settings: "salt";
+}
+.eighth-banner{
+    background-color: aqua;
+    background-image: url(image/last-footer.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 350px;
+    
+}
+.email-box{
+    background-color: transparent;
+    width: 364px;
+    height: 30px;
+    border-radius: 0;
+    border: 1px solid dimgray;
+}
+.final-content{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.final-head{
+    color: #fff;
+    font-size: xxx-large;
+    padding-top: 60px;
+    margin: 0;
+}
+.down-head{
+    color: #fff;
+}
+.down-plus{
+    color: #fff;
+}
+.nineth-banner{
+    background-color:#fff;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.first-list{
+    background-color:#fff;
+    width: 250px;
+    
+}
+.second-list{
+    background-color:#fff;
+    width: 250px;
+}
+.third-list{
+    background-color:#fff;
+    width: 250px;
+}
+.fourth-list{
+    background-color:#fff;
+    width: 250px;
+
+}
+.fifth-list{
+    background-color:#fff;
+    width: 250px;
+
+}
+.tenth-banner{
+    background-color:#fff;
+    height: 80px;
+    display: flex;
+}
+
+.coulmn-1{
+    background-color:#fff;
+    width: 1100px;
+    display: flex;
+}
+.coulmn-2{
+    background-color:#fff;
+    width: 150px;
+    display: flex;
+    padding-left: 10px;
+}
+.coulmn-3{
+    background-color:#fff;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+.img1{
+    width: 10px;
+    height: 10px;
+}
+.footerlst{
+    display:flex;list-style: none;
+    margin: 20px 3px 0 45px;
+
+}
+.footerlst li{
+    padding: 0 10px 0 0;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
